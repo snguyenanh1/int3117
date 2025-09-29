@@ -1,0 +1,5 @@
+id,customerTier,orderTotal,expectedOutput
+1,COPPER,-1,NegativeTotalException
+5,SILVER,-1,NegativeTotalException
+15,GOLD,-1,NegativeTotalException
+34,PLATINUM,-1,NegativeTotalException
