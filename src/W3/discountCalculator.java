@@ -1,10 +1,5 @@
 package W3;
 
-class NegativeTotalException extends Exception {
-    public NegativeTotalException(String message) {
-        super(message);
-    }
-}
 public class discountCalculator {
     public static int returnDiscount(CustomerTier customerTier, int orderTotal) throws NegativeTotalException {
         if (orderTotal < 0) {
